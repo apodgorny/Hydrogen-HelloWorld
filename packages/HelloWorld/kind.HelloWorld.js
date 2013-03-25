@@ -12,7 +12,7 @@ H.kind({
 	},
 	
 	onChange: function(oSender, oEvent) {
-		console.log('Changed property ', oEvent.property, 'from "', oEvent.oldValue, '" to "', oEvent.newValue, 'in', oSender.name, 'with id=', oSender.id);
+		console.log('Changed property ', oEvent.property, 'from "' +  oEvent.oldValue + '" to "' + oEvent.newValue + '" in', oSender.name, 'with id=' + oSender.id);
 	}	
 });
 
