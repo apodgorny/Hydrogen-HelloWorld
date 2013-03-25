@@ -1,7 +1,7 @@
 H.kind({
 	name: 'HelloWorld',
 	
-	helloProperty: 'foo',
+	helloProperty: 'nada',
 	
 	onConstruct: function(oSender, oEvent) {
 		console.log('Constructing', oSender.name);
